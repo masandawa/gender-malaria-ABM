@@ -1,0 +1,121 @@
+A0 calibration: m* = 19.30 (bootstrap 18.42-20.70; acceptance 13.28-25.16; slope 1.08)
+   profile d_A = 150 d    m* 25.58  incidence 289  prevalence 0.288
+   profile d_A = 250 d    m* 13.79  incidence 172  prevalence 0.276
+   profile eta_N = 0.50   m* 17.26  incidence 218  prevalence 0.279
+   profile eta_N = 0.90   m* 22.50  incidence 231  prevalence 0.289
+   profile b_vh x 0.75    m* 31.03  incidence 263  prevalence 0.339
+   profile reference      m* 19.30  incidence 231  prevalence 0.290
+
+Empirical evaluation (reference configuration)
+   RDT prevalence 6-59 months             0.062 (0.059-0.064)
+   Indoor share of exposure, non-users    0.663 (0.659-0.667)
+   Indoor share, females                  0.674 (0.667-0.680)
+   Indoor share, males                    0.653 (0.649-0.656)
+   ITN use, all                           0.581 (0.576-0.587)
+   ITN use, pregnant women                0.661 (0.639-0.683)
+   F:M prevalence <5 y                    1.036 (0.940-1.133)
+   F:M RDT prevalence, all ages           0.813 (0.790-0.836)
+   F:M prevalence (all infections)        0.785 (0.765-0.805)
+   F:M prevalence 15-44 y                 0.762 (0.731-0.793)
+   F:M clinical incidence                 1.260 (1.219-1.300)
+   Pregnant : children 6-59 m (RDT)       1.328 (1.237-1.419)
+   OR malaria, <5 non-users vs users      1.439 (1.323-1.554)
+   RDT prevalence, all ages               0.079 (0.078-0.081)
+   Prevalence, all infections             0.288 (0.282-0.295)
+   Clinical incidence /1000 PY            230.775 (224.812-236.738)
+
+A1 behaviour (reference configuration)
+   delta -1.00 behavioural F-M difference -0.352 pp (-1.211,+0.507); PR 0.766; outdoor F 0.279 M 0.396
+   delta -0.60 behavioural F-M difference -0.252 pp (-0.801,+0.297); PR 0.769; outdoor F 0.302 M 0.370
+   delta -0.30 behavioural F-M difference -0.104 pp (-0.541,+0.334); PR 0.773; outdoor F 0.318 M 0.353
+   delta -0.15 behavioural F-M difference +0.180 pp (-0.575,+0.935); PR 0.780; outdoor F 0.328 M 0.342
+   delta +0.00 behavioural F-M difference +0.000 pp (+0.000,+0.000); PR 0.777; outdoor F 0.338 M 0.333
+   delta +0.15 behavioural F-M difference -0.229 pp (-0.777,+0.319); PR 0.769; outdoor F 0.346 M 0.324
+   delta +0.30 behavioural F-M difference -0.343 pp (-1.091,+0.404); PR 0.767; outdoor F 0.355 M 0.317
+   pClin    0.5068 (0.4957-0.5180)
+   pTrans   0.7568 (0.7464-0.7673)
+   qB50     0.1401 (0.1374-0.1427)
+   qB80     0.3191 (0.3126-0.3257)
+   qT50     0.0412 (0.0373-0.0450)
+   qT80     0.1483 (0.1415-0.1551)
+   qBt50    0.2765 (0.2725-0.2804)
+   qTt50    0.0544 (0.0493-0.0595)
+   J        0.6427 (0.6325-0.6528)
+   meanInf  2.7650 (2.7034-2.8266)
+   inf0     0.2358 (0.2249-0.2468)
+   inf1     0.1831 (0.1769-0.1892)
+   inf2     0.1438 (0.1365-0.1512)
+   inf3p    0.4373 (0.4282-0.4464)
+
+A2 factorial (16 configurations)
+   logPR   Behaviour (B)                +0.0104 (+0.0023,+0.0186)   [total -0.2478]
+   logPR   Programme access (A)         -0.0057 (-0.0206,+0.0091)   [total -0.2478]
+   logPR   Pregnancy biology (G)        +0.0150 (+0.0068,+0.0233)   [total -0.2478]
+   logPR   Sex-specific clearance (S)   -0.2676 (-0.2770,-0.2581)   [total -0.2478]
+   logPR   Interactions                 +0.0222 (-0.0780,+0.1225)   [total -0.2478]
+   logIRR  Behaviour (B)                -0.0165 (-0.0369,+0.0039)   [total +0.2171]
+   logIRR  Programme access (A)         -0.0027 (-0.0198,+0.0145)   [total +0.2171]
+   logIRR  Pregnancy biology (G)        +0.0506 (+0.0302,+0.0709)   [total +0.2171]
+   logIRR  Sex-specific clearance (S)   +0.1857 (+0.1644,+0.2071)   [total +0.2171]
+   logIRR  Interactions                 -0.0293 (-0.1152,+0.0566)   [total +0.2171]
+   dEff    Behaviour (B)                +2.0638 (+1.8087,+2.3188)   [total +4.8677]
+   dEff    Programme access (A)         +2.9246 (+1.7715,+4.0778)   [total +4.8677]
+   dEff    Pregnancy biology (G)        -0.0839 (-0.3900,+0.2221)   [total +4.8677]
+   dEff    Sex-specific clearance (S)   -0.0368 (-0.3395,+0.2659)   [total +4.8677]
+   dEff    Interactions                 +0.7211 (-0.3836,+1.8258)   [total +4.8677]
+   Gabs    Behaviour (B)                -4.8271 (-6.9123,-2.7420)   [total +41.8269]
+   Gabs    Programme access (A)         +0.2793 (-2.9397,+3.4982)   [total +41.8269]
+   Gabs    Pregnancy biology (G)        +8.9719 (+5.8641,+12.0796)   [total +41.8269]
+   Gabs    Sex-specific clearance (S)   +37.4029 (+32.9386,+41.8672)   [total +41.8269]
+   Gabs    Interactions                 -5.4329 (-17.9634,+7.0975)   [total +41.8269]
+
+A3 pregnancy sensitivity (pregnant vs non-pregnant women 15-44 y)
+   reference      PR 1.19 (1.14-1.25)  IRR 2.23 (1.90-2.55)  RDT preg 0.082 non-preg 0.069
+   kappa_P = 1.0  PR 1.00 (0.95-1.05)  IRR 1.46 (1.28-1.63)  RDT preg 0.066 non-preg 0.066
+   kappa_P = 1.5  PR 1.08 (1.02-1.14)  IRR 1.83 (1.67-1.98)  RDT preg 0.075 non-preg 0.069
+   kappa_P = 2.5  PR 1.23 (1.14-1.32)  IRR 2.34 (2.14-2.53)  RDT preg 0.085 non-preg 0.069
+   r_C = 1.0      PR 1.20 (1.16-1.23)  IRR 1.24 (1.15-1.34)  RDT preg 0.081 non-preg 0.068
+   r_C = 2.0      PR 1.16 (1.07-1.25)  IRR 2.65 (2.47-2.84)  RDT preg 0.081 non-preg 0.069
+   IPTp = 0.2     PR 1.18 (1.12-1.24)  IRR 2.22 (1.86-2.57)  RDT preg 0.082 non-preg 0.069
+   IPTp = 0.6     PR 1.18 (1.10-1.27)  IRR 1.99 (1.85-2.14)  RDT preg 0.080 non-preg 0.068
+
+A4 ITN use (habitual vs nightly)
+   nightly=0 OR 1.55 (1.43-1.66) RR recipients 0.95 (0.93-0.97) risk rec 0.863 non 0.907; infections/person rec 3.32 non 3.86 IRR 0.86 (0.84-0.89); E vs P prevalence -6.3% (-8.1,-4.5)
+   nightly=1 OR 1.15 (1.07-1.23) RR recipients 0.95 (0.94-0.96) risk rec 0.862 non 0.905; infections/person rec 3.30 non 3.87 IRR 0.85 (0.84-0.87); E vs P prevalence -4.7% (-6.9,-2.5)
+
+A5 allocation (paired against P)
+   P prev 28.88% inc 227.2 | dPrev +0.0% (+0.0,+0.0) dInc +0.0% dZ +0.0% dIncU5 +0.0% dPregRDT +0.00 pp | sev 2.63 eff F 0.60 M 0.56 preg 0.68 Gabs 60.5
+   U prev 29.09% inc 230.5 | dPrev +0.8% (-0.3,+1.8) dInc +1.5% dZ -0.7% dIncU5 +15.5% dPregRDT -0.10 pp | sev 2.55 eff F 0.59 M 0.57 preg 0.60 Gabs 62.9
+   D prev 28.84% inc 225.0 | dPrev -0.1% (-1.1,+0.9) dInc -0.9% dZ +0.3% dIncU5 +2.0% dPregRDT -0.44 pp | sev 2.46 eff F 0.84 M 0.34 preg 0.87 Gabs 39.4
+   E prev 27.40% inc 217.4 | dPrev -5.0% (-6.1,-4.0) dInc -4.2% dZ -5.4% dIncU5 +10.5% dPregRDT -0.62 pp | sev 2.56 eff F 0.60 M 0.57 preg 0.70 Gabs 56.8
+   A prev 28.66% inc 234.6 | dPrev -0.7% (-1.8,+0.4) dInc +3.4% dZ -2.6% dIncU5 +45.2% dPregRDT -0.47 pp | sev 2.73 eff F 0.59 M 0.57 preg 0.86 Gabs 56.2
+   H prev 28.47% inc 226.1 | dPrev -1.4% (-2.5,-0.2) dInc -0.4% dZ -4.1% dIncU5 +16.0% dPregRDT -0.34 pp | sev 2.48 eff F 0.60 M 0.55 preg 0.66 Gabs 55.8
+   T prev 28.00% inc 222.4 | dPrev -3.0% (-4.1,-1.9) dInc -2.0% dZ -5.6% dIncU5 +14.3% dPregRDT -0.54 pp | sev 2.27 eff F 0.58 M 0.57 preg 0.66 Gabs 54.1
+
+A6 biting ratio
+   R 0.70 fixed m 19.3 prev 0.269 u5 0.049 | beh(-0.15) -0.50 (-1.07,+0.07) beh(-1) -0.14 (-0.74,+0.46) | E vs P -9.0% (-13.2,-4.9)
+   R 0.70 recal m 20.7 prev 0.282 u5 0.055 | beh(-0.15) +0.11 (-0.91,+1.12) beh(-1) -0.07 (-1.37,+1.22) | E vs P -7.2% (-11.0,-3.5)
+   R 1.00 fixed m 19.3 prev 0.292 u5 0.056 | beh(-0.15) -0.15 (-1.23,+0.94) beh(-1) -0.20 (-1.56,+1.16) | E vs P -3.8% (-6.9,-0.7)
+   R 1.43 fixed m 19.3 prev 0.322 u5 0.061 | beh(-0.15) -0.18 (-1.58,+1.22) beh(-1) -1.39 (-2.23,-0.56) | E vs P -2.6% (-5.0,-0.3)
+   R 1.43 recal m 16.7 prev 0.299 u5 0.056 | beh(-0.15) -0.26 (-1.34,+0.81) beh(-1) -1.35 (-2.55,-0.15) | E vs P -4.6% (-6.8,-2.4)
+   R 2.50 fixed m 19.3 prev 0.381 u5 0.076 | beh(-0.15) -0.44 (-1.73,+0.85) beh(-1) -2.30 (-3.08,-1.52) | E vs P -1.0% (-3.1,+1.1)
+   R 2.50 recal m 13.2 prev 0.315 u5 0.055 | beh(-0.15) +0.09 (-1.10,+1.28) beh(-1) -1.70 (-2.77,-0.64) | E vs P -1.4% (-3.1,+0.4)
+   R 4.37 fixed m 19.3 prev 0.448 u5 0.093 | beh(-0.15) -0.34 (-1.65,+0.97) beh(-1) -3.99 (-4.32,-3.67) | E vs P -0.0% (-1.6,+1.5)
+   R 4.37 recal m 9.7 prev 0.334 u5 0.057 | beh(-0.15) -0.99 (-2.20,+0.22) beh(-1) -2.91 (-4.08,-1.74) | E vs P -1.9% (-4.0,+0.2)
+
+A7 uncertainty (40 draws)
+   n                      40.000
+   p_E_beats_P            0.950
+   p_A_beats_P            0.600
+   p_U_beats_P            0.675
+   p_D_beats_P            0.375
+   p_E_best               0.775
+   p_clear_lowers_F       1.000
+   p_occ_lowers_F         0.675
+   p_clear_gt_occ         1.000
+   p_Ppreg_better_than_E  0.350
+   p_E_raises_U5          0.800
+   med_EvsP               -4.993
+   med_AvsP               -0.530
+   med_PRclear            0.726
+   med_PRocc              0.979

@@ -1,0 +1,9 @@
+function f = fig_new(wcm, hcm)
+%FIG_NEW  Figure sized in centimetres at its printed size, so text is legible
+%   without enlarging (9-pt labels at 100% scale).
+f = figure('Visible', 'off', 'Color', 'w', 'Units', 'centimeters', 'Position', [2 2 wcm hcm], ...
+    'PaperUnits', 'centimeters', 'PaperSize', [wcm hcm], 'PaperPosition', [0 0 wcm hcm]);
+set(f, 'DefaultAxesFontSize', 8.5, 'DefaultTextFontSize', 8.5, 'DefaultAxesLineWidth', 0.6, ...
+    'DefaultLineLineWidth', 1.2, 'DefaultAxesTickDir', 'out', 'DefaultAxesBox', 'off', ...
+    'DefaultAxesFontName', 'Helvetica', 'DefaultTextFontName', 'Helvetica');
+end

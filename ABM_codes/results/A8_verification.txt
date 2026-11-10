@@ -1,0 +1,8 @@
+b_vh = 0: no new human infections                              PASS  (0 new infections)
+b_hv = 0: no new mosquito infections                           PASS  (0 mosquito infections)
+Constant population size; valid human and mosquito states      PASS  (N = 1000; Sv,Ev,Iv = 21113,1121,1456)
+No spontaneous infection without infected hosts or vectors     PASS  (0 human, 0 mosquito infections)
+ITN protection reduces infection (eta_N = 0 vs 0.70)           PASS  (1524 vs 1219 new infections)
+Treatment access lowers prevalence (p_tx = 1 vs 0)             PASS  (0.219 vs 0.277)
+Each selection rule allocates exactly floor(0.7 N) ITNs        PASS  (700 ITNs)
+Attributed events equal new mosquito infections                PASS  (61422 = 61422)
